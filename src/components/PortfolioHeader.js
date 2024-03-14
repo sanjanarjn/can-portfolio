@@ -3,7 +3,7 @@ import linkedInIcon from "../images/linkedin.png";
 import gmailIcon from "../images/gmail.png";
 import twitterIcon from "../images/twitter.png";
 import youtubeIcon from "../images/youtube.png";
-
+import bgImage from "../images/panel-bg.jpeg"
 import "./portfolio.css";
 
 function PortfolioHeader() {
@@ -37,6 +37,7 @@ function PortfolioHeader() {
           </span>
         </div>
       </div>
+      <img src={bgImage} />
     </div>
   );
 }
