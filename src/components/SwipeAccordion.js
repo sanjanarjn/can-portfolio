@@ -11,22 +11,25 @@ import ProjectDetail from "./ProjectDetail";
 
 import pantryPalImage from "../images/pantry-pal.png";
 import coRideImage from "../images/co-ride.png";
+import walletWizImage from "../images/wallet-wiz.jpeg"
 
 import "./portfolio.css";
 
 function SwipeAccordion() {
   const pantryPalSubheading =
-    "Simple extension which simplifies your weekly meal planning and groceries! ";
+    "Simple chrome extension which simplifies your weekly meal planning and groceries! ";
   const pantryPalDescription =
     "PantryPal is a straightforward meal planning and grocery list app designed for simplicity. It helps you organize your weekly meals and shopping lists.";
 
   const coRideSubHeading =
-    "Simple extension which simplifies your weekly meal planning and groceries! ";
+    "CoRide empowers users to post and find rides, facilitating easy travel connections.";
   const coRideDescription =
-    "PantryPal is a straightforward meal planning and grocery list app designed for simplicity. It helps you organize your weekly meals and shopping lists.";
+    "Create a ride or search for a match, making every journey more sustainable and social. Perfect for commuters and travelers seeking shared experiences.";
 
+  const walletWizSubHeading = "Simplify your financial management with a user-friendly interface for tracking expenses."
+  const walletWizDescription = "Keep tabs on your spending with quick entries and comprehensive list of categories. Ideal for anyone looking to gain insight into their financial habits and make informed budgeting decisions."
   return (
-    <div class="ease-in-out h-full w-11/12 mx-14 mb-16 rounded-3xl font-serif p-8">
+    <div class="ease-in-out h-full w-11/12 mx-14 mb-16 rounded-3xl p-8">
       <div className="mb-8">
       <p class="p-6 font-arvo text-5xl">Project Highlights...</p>
       </div>
@@ -43,6 +46,14 @@ function SwipeAccordion() {
       >
         <SwiperSlide>
           <ProjectDetail
+            title="Wallet Wiz"
+            image={walletWizImage}
+            subheading={walletWizSubHeading}
+            description={walletWizDescription}
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <ProjectDetail
             title="Pantry Pal"
             image={pantryPalImage}
             subheading={pantryPalSubheading}
@@ -51,28 +62,14 @@ function SwipeAccordion() {
         </SwiperSlide>
         <SwiperSlide>
           <ProjectDetail
-            title="CO-RIDE"
+            title="Co-Ride"
             image={coRideImage}
             subheading={coRideSubHeading}
             description={coRideDescription}
           />
         </SwiperSlide>
-        <SwiperSlide>
-          <ProjectDetail
-            title="PANTRY PAL"
-            image={pantryPalImage}
-            subheading={pantryPalSubheading}
-            description={pantryPalDescription}
-          />
-        </SwiperSlide>
-        <SwiperSlide>
-          <ProjectDetail
-            title="CO-RIDE"
-            image={coRideImage}
-            subheading={coRideSubHeading}
-            description={coRideDescription}
-          />
-        </SwiperSlide>
+        
+       
       </Swiper>
     </div>
   );
