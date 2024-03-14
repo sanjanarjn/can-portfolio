@@ -12,6 +12,8 @@ import ProjectDetail from "./ProjectDetail";
 import pantryPalImage from "../images/pantry-pal.png";
 import coRideImage from "../images/co-ride.png";
 
+import "./portfolio.css";
+
 function SwipeAccordion() {
   const pantryPalSubheading =
     "Simple extension which simplifies your weekly meal planning and groceries! ";
@@ -24,7 +26,10 @@ function SwipeAccordion() {
     "PantryPal is a straightforward meal planning and grocery list app designed for simplicity. It helps you organize your weekly meals and shopping lists.";
 
   return (
-    <>
+    <div class="ease-in-out h-full w-11/12 mx-14 mb-16 rounded-3xl font-serif p-8">
+      <div className="mb-8">
+      <p class="p-6 font-arvo text-5xl">Project Highlights...</p>
+      </div>
       <Swiper
         slidesPerView={"auto"}
         centeredSlides={true}
@@ -38,7 +43,7 @@ function SwipeAccordion() {
       >
         <SwiperSlide>
           <ProjectDetail
-            title="PANTRY PAL"
+            title="Pantry Pal"
             image={pantryPalImage}
             subheading={pantryPalSubheading}
             description={pantryPalDescription}
@@ -69,7 +74,7 @@ function SwipeAccordion() {
           />
         </SwiperSlide>
       </Swiper>
-    </>
+    </div>
   );
 }
 
