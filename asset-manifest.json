@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/can-portfolio/static/css/main.e71c8f82.css",
+    "main.js": "/can-portfolio/static/js/main.c67eaa0e.js",
+    "static/js/453.f126ece2.chunk.js": "/can-portfolio/static/js/453.f126ece2.chunk.js",
+    "static/media/co-ride.png": "/can-portfolio/static/media/co-ride.a1d5cd85a1bc485d6c29.png",
+    "static/media/pantry-pal.png": "/can-portfolio/static/media/pantry-pal.afec5080a0fa3d1b6c26.png",
+    "static/media/wallet-wiz.jpeg": "/can-portfolio/static/media/wallet-wiz.c3660189ad29024353b2.jpeg",
+    "static/media/panel-bg.jpeg": "/can-portfolio/static/media/panel-bg.09b11ae7faff4d2cd1ef.jpeg",
+    "static/media/quality-assurance.png": "/can-portfolio/static/media/quality-assurance.88a0dfb2dd34501019a6.png",
+    "static/media/twitter.png": "/can-portfolio/static/media/twitter.e58e4997ef85cbd7054c.png",
+    "static/media/competitor-analysis.png": "/can-portfolio/static/media/competitor-analysis.f5e7193b0b15c3a3f3ef.png",
+    "static/media/web.png": "/can-portfolio/static/media/web.6a1e5ddc3122a9f24a5a.png",
+    "static/media/mobile.png": "/can-portfolio/static/media/mobile.26d5d614c1d5e3f48a40.png",
+    "static/media/github.png": "/can-portfolio/static/media/github.cee4a2529f0e79748f02.png",
+    "static/media/java.png": "/can-portfolio/static/media/java.375f91150aebfc2e19ef.png",
+    "index.html": "/can-portfolio/index.html",
+    "main.e71c8f82.css.map": "/can-portfolio/static/css/main.e71c8f82.css.map",
+    "main.c67eaa0e.js.map": "/can-portfolio/static/js/main.c67eaa0e.js.map",
+    "453.f126ece2.chunk.js.map": "/can-portfolio/static/js/453.f126ece2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e71c8f82.css",
+    "static/js/main.c67eaa0e.js"
+  ]
+}
