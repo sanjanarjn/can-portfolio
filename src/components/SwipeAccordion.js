@@ -14,6 +14,7 @@ import coRideImage from "../images/co-ride.png";
 import walletWizImage from "../images/wallet-wiz.jpeg"
 
 import "./portfolio.css";
+import CoRideProjectDetail from "./CoRideProjectDetail";
 
 function SwipeAccordion() {
   const pantryPalSubheading =
@@ -61,9 +62,8 @@ function SwipeAccordion() {
           />
         </SwiperSlide>
         <SwiperSlide>
-          <ProjectDetail
+          <CoRideProjectDetail
             title="Co-Ride"
-            image={coRideImage}
             subheading={coRideSubHeading}
             description={coRideDescription}
           />

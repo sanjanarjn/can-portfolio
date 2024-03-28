@@ -2,7 +2,7 @@
   "name": "can-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://sanjanarjn.github.io/can-portfolio/",
+  "homepage": "https://can-consul.github.io/can-portfolio/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
