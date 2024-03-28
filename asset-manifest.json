@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/can-portfolio/static/css/main.e71c8f82.css",
-    "main.js": "/can-portfolio/static/js/main.c67eaa0e.js",
+    "main.js": "/can-portfolio/static/js/main.6f5fbf71.js",
     "static/js/453.f126ece2.chunk.js": "/can-portfolio/static/js/453.f126ece2.chunk.js",
     "static/media/co-ride.png": "/can-portfolio/static/media/co-ride.a1d5cd85a1bc485d6c29.png",
     "static/media/pantry-pal.png": "/can-portfolio/static/media/pantry-pal.afec5080a0fa3d1b6c26.png",
@@ -16,11 +16,11 @@
     "static/media/java.png": "/can-portfolio/static/media/java.375f91150aebfc2e19ef.png",
     "index.html": "/can-portfolio/index.html",
     "main.e71c8f82.css.map": "/can-portfolio/static/css/main.e71c8f82.css.map",
-    "main.c67eaa0e.js.map": "/can-portfolio/static/js/main.c67eaa0e.js.map",
+    "main.6f5fbf71.js.map": "/can-portfolio/static/js/main.6f5fbf71.js.map",
     "453.f126ece2.chunk.js.map": "/can-portfolio/static/js/453.f126ece2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e71c8f82.css",
-    "static/js/main.c67eaa0e.js"
+    "static/js/main.6f5fbf71.js"
   ]
 }
